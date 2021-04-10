@@ -12,7 +12,7 @@
   
   body{
       background-color: #E6B0CD;
-      background: linear-gradient(to right top, #eeaeca, #94bbe9);
+      background: linear-gradient(to right top, #a2ddd8, #52e4ac);
     font-family: 'Lily Script One', cursive;
     letter-spacing: 2px;
   }
@@ -204,7 +204,7 @@ button{
     padding: 12px 8px;
     cursor: pointer;
     color: #333;
-    background-color: #A8B8E2;
+    background-color: #52e4cd;
     align-items: center;
     align-self: center;
     justify-content: center;
@@ -212,11 +212,11 @@ button{
     margin: 20px auto;
     font-size: 24px;
     outline: none;
-    border: 1px solid #A8B8E2;
+    border: 1px solid #52e4ac;
 }
 
 button:hover{
-    background-color: #E6B0CD;
+    background-color: #52e4ac;
     color: black;
 }
 
