@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Flamenco&family=Lily+Script+One&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: rgba(0,0,0,0.08);
+    font-family: 'Lily Script One', cursive;
+    letter-spacing: 2px;
+  }
+
+  .wrapper{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 100vw;
+      margin: 40px 15px;
+  }
+
+  .wrapper h2{
+      font-size: 40px;
+      text-transform: uppercase;
+      font-weight: bolder;
+      font-family: 'Flamenco', cursive;
+  }
+
+  form{
+      background-color: #fff;
+      box-shadow: 3px 3px 2px rgba(0,0,0,0.1);
+      border-radius: 5px;
+      padding: 55px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100wv;
+    margin: 40px 15px;
+}
+
+h4{
+    margin: 25px 0;
+    align-items: center;
+        text-align: center;
+        display: block;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 25px;
+        text-decoration: underline;
+}
+
+.input-group {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.input-box {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+     padding: 0 20px;
+}
+
+.input-group:nth-child(2){
+    display: block;
+    flex-direction: column !important;
+    width: 100%;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.input-group:nth-child(4) .input-box {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+     padding: 0 20px;
+}
+
+input[type=radio]{
+  display: inline-flex;
+  margin-top: 10px;
+  margin-left: 25px;
+  padding: 20px;
+}
+
+
+/* Input Group 3  Gender */
+
+.input-group:nth-of-type(3) .input-box:nth-child(1), .input-group:nth-of-type(3) .input-box:nth-child(1) label {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+     align-items: center;
+     padding: 10px 20px;
+     margin: 0;
+}
+
+
+
+/* Payment Row */
+
+.input-group:nth-of-type(4) .input-box:nth-child(1){
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+     align-items: center;
+     padding: 10px 20px;
+     margin: 0;
+}
+
+
+input[type=text]{
+    width: 95%;
+    padding: 12px 8px;
+    margin: 10px 0;
+    border: 0;
+    border-bottom: 1px solid #000;
+}
+
+input[type=tel]{
+    width: 95%;
+    padding: 12px 8px;
+    margin: 10px 0;
+    border: 0;
+    border-bottom: 1px solid #000;
+}
+
+input[type=email]{
+    width: 95%;
+    padding: 12px 8px;
+    margin: 10px 0;
+    border: 0;
+    border-bottom: 1px solid #000;
+}
+
+select{
+    width: 100%;
+    padding: 12px 8px;
+    margin: 10px 0;
+    border: 0;
+    border-bottom: 1px solid #000;
+}
+
+input::placeholder{
+    font-family: 'Flamenco', cursive;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 16px;
+    text-transform: lowercase;
+}
+
+option, select{
+    font-family: 'Flamenco', cursive;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 16px;
+    text-transform: lowercase;
+    outline: none;
+}
+
+button{
+    width: 100%;
+    padding: 12px 8px;
+    margin: 10px 0;
+    cursor: pointer;
+    color: brown;
+    background-color: white;
+    font-size: 24px;
+    outline: none;
+    border: 1px solid brown;
+}
+
+button:hover{
+    background-color: brown;
+    color: white;
+    border: 0;
+}
+
+input[type=radio], input[type=radio] label{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+input{
+    outline: none;
+}
+
+.fa{
+    margin-left: 10px;
+   }
+
+ .input-group:nth-child(4) .input-box{
+     display: flex;   
+    align-items: center;
+      justify-content: center; 
+      text-align: center; 
+      width: 100%;
+      padding: 0 !important;
+    
+  } 
+
+   .input-group:nth-child(5) .input-box{
+    display: flex;   
+    align-items: center;
+      justify-content: center; 
+      text-align: center; 
+      width: 100%;
+      padding: 0 !important;
+}  
+
